@@ -1,12 +1,12 @@
 
 body {
-  background-color: darkgreen;
+  background-color: black;
 }
 
 #board {
-  width: 440px;
-  height: 440px;
-  border: 1px solid white;
+  width: 760px;
+  height: 400px;
+  border: 10px solid brown;
   background-image: url("https://i.ytimg.com/vi/LSZVYVRuDs8/maxresdefault.jpg")
 }
 
@@ -23,15 +23,15 @@ body {
 }
 
 .snake {
-  background-color: #3e3840;
+  background-color: purple;
   z-index: 2;
 }
 
 #snake-head {
-  background-color: #dccaf9;
+  background-color: pink;
 }
 
 .apple {
-  background-color: red;
+  background-color: green;
   z-index: 1;
 }

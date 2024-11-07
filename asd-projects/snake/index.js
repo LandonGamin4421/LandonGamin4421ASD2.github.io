@@ -15,8 +15,8 @@ var snake = [];
 var apple = [];
 var score = 0;
 // Constant Variables
-var ROWS = 20;
-var COLUMNS = 20;
+var ROWS = 16;
+var COLUMNS = 36;
 var SQUARE_SIZE = 20;
 var KEY = {
   LEFT: 37,
@@ -157,19 +157,21 @@ function hasHitWall() {
   
   HINT: What will the row and column of the snake's head be if this were the case?
   */
-  if (snake.head.column === COLUMNS +1) {
+  if (snake.head.column === COLUMNS + 1) {
     return true;
   }
-  else if (snake.head.column === COLUMNS -21) {
+  else if (snake.head.column === COLUMNS -37) {
     return true;
   }
-  else if (snake.head.row === ROWS +1) {
+  else if (snake.head.row === ROWS +4) {
     return true;
   }
-  else if (snake.head.row === ROWS -21) {
+  else if (snake.head.row === ROWS -17) {
     return true;
   }
-  else {return false;}
+  else {
+    return false;
+  }
 }
 
 function hasCollidedWithApple() {
