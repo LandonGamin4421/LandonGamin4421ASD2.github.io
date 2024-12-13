@@ -246,7 +246,7 @@ function hasCollidedWithSnake() {
   return false;
 }
 
-function endGame() {
+function endGame() { 
   if (hasCollidedWithSnake() === true) {
     alert("Don't die like that");
   }
