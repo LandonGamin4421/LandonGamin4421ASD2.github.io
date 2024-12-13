@@ -33,8 +33,8 @@ function runProgram(){
     speedY: 0
   }
   var walker2 = {
-    xPos: 0,
-    yPos: 0,
+    xPos: BOARD_WIDTH - WALKER_WIDTH,
+    yPos: BOARD_HEIGHT - WALKER_HEIGHT,
     speedX: 0,
     speedY: 0
   }
